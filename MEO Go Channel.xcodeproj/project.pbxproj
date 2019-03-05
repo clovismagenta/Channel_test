@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		4D2C4428222D8FFB00FD3F54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2C4427222D8FFB00FD3F54 /* AppDelegate.swift */; };
-		4D2C442A222D8FFB00FD3F54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2C4429222D8FFB00FD3F54 /* ViewController.swift */; };
 		4D2C442D222D8FFB00FD3F54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2C442B222D8FFB00FD3F54 /* Main.storyboard */; };
 		4D2C442F222D8FFD00FD3F54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D2C442E222D8FFD00FD3F54 /* Assets.xcassets */; };
 		4D2C4432222D8FFD00FD3F54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2C4430222D8FFD00FD3F54 /* LaunchScreen.storyboard */; };
+		4D2C443E222D909A00FD3F54 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D2C443D222D909A00FD3F54 /* CustomCell.xib */; };
+		4D2C4441222D918E00FD3F54 /* CustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2C4440222D918E00FD3F54 /* CustomCellTableViewCell.swift */; };
+		4D2C4443222D92B500FD3F54 /* MEOChannelsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2C4442222D92B500FD3F54 /* MEOChannelsTableViewController.swift */; };
+		4D2C4445222D958900FD3F54 /* Programs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2C4444222D958900FD3F54 /* Programs.swift */; };
+		4D2C4447222D992A00FD3F54 /* CatalogIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2C4446222D992A00FD3F54 /* CatalogIntegration.swift */; };
+		8516B6125C5BC0360C5B214A /* Pods_MEO_Go_Channel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9094A500FF6FFCEA72F03C50 /* Pods_MEO_Go_Channel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D2C4424222D8FFB00FD3F54 /* MEO Go Channel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MEO Go Channel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D2C4427222D8FFB00FD3F54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D2C4429222D8FFB00FD3F54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D2C442C222D8FFB00FD3F54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D2C442E222D8FFD00FD3F54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D2C4431222D8FFD00FD3F54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D2C4433222D8FFD00FD3F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D2C443D222D909A00FD3F54 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		4D2C4440222D918E00FD3F54 /* CustomCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellTableViewCell.swift; sourceTree = "<group>"; };
+		4D2C4442222D92B500FD3F54 /* MEOChannelsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEOChannelsTableViewController.swift; sourceTree = "<group>"; };
+		4D2C4444222D958900FD3F54 /* Programs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programs.swift; sourceTree = "<group>"; };
+		4D2C4446222D992A00FD3F54 /* CatalogIntegration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogIntegration.swift; sourceTree = "<group>"; };
+		5169A1A544CB87BC8A26AA63 /* Pods-MEO Go Channel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEO Go Channel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MEO Go Channel/Pods-MEO Go Channel.debug.xcconfig"; sourceTree = "<group>"; };
+		5890F0A1393EC3E2B83BC4FC /* Pods-MEO Go Channel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEO Go Channel.release.xcconfig"; path = "Pods/Target Support Files/Pods-MEO Go Channel/Pods-MEO Go Channel.release.xcconfig"; sourceTree = "<group>"; };
+		9094A500FF6FFCEA72F03C50 /* Pods_MEO_Go_Channel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEO_Go_Channel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8516B6125C5BC0360C5B214A /* Pods_MEO_Go_Channel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		114DC8108A87E67AAB726BB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5169A1A544CB87BC8A26AA63 /* Pods-MEO Go Channel.debug.xcconfig */,
+				5890F0A1393EC3E2B83BC4FC /* Pods-MEO Go Channel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1C435A012753F2D556B8E8BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9094A500FF6FFCEA72F03C50 /* Pods_MEO_Go_Channel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4D2C441B222D8FFB00FD3F54 = {
 			isa = PBXGroup;
 			children = (
 				4D2C4426222D8FFB00FD3F54 /* MEO Go Channel */,
 				4D2C4425222D8FFB00FD3F54 /* Products */,
+				114DC8108A87E67AAB726BB0 /* Pods */,
+				1C435A012753F2D556B8E8BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +86,58 @@
 		4D2C4426222D8FFB00FD3F54 /* MEO Go Channel */ = {
 			isa = PBXGroup;
 			children = (
-				4D2C4427222D8FFB00FD3F54 /* AppDelegate.swift */,
-				4D2C4429222D8FFB00FD3F54 /* ViewController.swift */,
-				4D2C442B222D8FFB00FD3F54 /* Main.storyboard */,
-				4D2C442E222D8FFD00FD3F54 /* Assets.xcassets */,
-				4D2C4430222D8FFD00FD3F54 /* LaunchScreen.storyboard */,
+				4D2C443C222D904D00FD3F54 /* Auxiliar Files */,
+				4D2C443A222D903300FD3F54 /* View */,
+				4D2C4439222D902900FD3F54 /* Model */,
+				4D2C443B222D903900FD3F54 /* Controller */,
 				4D2C4433222D8FFD00FD3F54 /* Info.plist */,
 			);
 			path = "MEO Go Channel";
+			sourceTree = "<group>";
+		};
+		4D2C4439222D902900FD3F54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D2C4444222D958900FD3F54 /* Programs.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D2C443A222D903300FD3F54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D2C443F222D916B00FD3F54 /* Custom Cell */,
+				4D2C4430222D8FFD00FD3F54 /* LaunchScreen.storyboard */,
+				4D2C442B222D8FFB00FD3F54 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D2C443B222D903900FD3F54 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4D2C4442222D92B500FD3F54 /* MEOChannelsTableViewController.swift */,
+				4D2C4446222D992A00FD3F54 /* CatalogIntegration.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4D2C443C222D904D00FD3F54 /* Auxiliar Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D2C442E222D8FFD00FD3F54 /* Assets.xcassets */,
+				4D2C4427222D8FFB00FD3F54 /* AppDelegate.swift */,
+			);
+			path = "Auxiliar Files";
+			sourceTree = "<group>";
+		};
+		4D2C443F222D916B00FD3F54 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4D2C443D222D909A00FD3F54 /* CustomCell.xib */,
+				4D2C4440222D918E00FD3F54 /* CustomCellTableViewCell.swift */,
+			);
+			path = "Custom Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D2C4436222D8FFD00FD3F54 /* Build configuration list for PBXNativeTarget "MEO Go Channel" */;
 			buildPhases = (
+				BF7B40D20FC41142FE03A994 /* [CP] Check Pods Manifest.lock */,
 				4D2C4420222D8FFB00FD3F54 /* Sources */,
 				4D2C4421222D8FFB00FD3F54 /* Frameworks */,
 				4D2C4422222D8FFB00FD3F54 /* Resources */,
+				9918F63118B1F91F70A29AA3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,19 +202,72 @@
 			files = (
 				4D2C4432222D8FFD00FD3F54 /* LaunchScreen.storyboard in Resources */,
 				4D2C442F222D8FFD00FD3F54 /* Assets.xcassets in Resources */,
+				4D2C443E222D909A00FD3F54 /* CustomCell.xib in Resources */,
 				4D2C442D222D8FFB00FD3F54 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9918F63118B1F91F70A29AA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MEO Go Channel/Pods-MEO Go Channel-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MEO Go Channel/Pods-MEO Go Channel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF7B40D20FC41142FE03A994 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MEO Go Channel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D2C4420222D8FFB00FD3F54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D2C442A222D8FFB00FD3F54 /* ViewController.swift in Sources */,
+				4D2C4447222D992A00FD3F54 /* CatalogIntegration.swift in Sources */,
+				4D2C4445222D958900FD3F54 /* Programs.swift in Sources */,
+				4D2C4441222D918E00FD3F54 /* CustomCellTableViewCell.swift in Sources */,
 				4D2C4428222D8FFB00FD3F54 /* AppDelegate.swift in Sources */,
+				4D2C4443222D92B500FD3F54 /* MEOChannelsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +411,7 @@
 		};
 		4D2C4437222D8FFD00FD3F54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5169A1A544CB87BC8A26AA63 /* Pods-MEO Go Channel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +430,7 @@
 		};
 		4D2C4438222D8FFD00FD3F54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5890F0A1393EC3E2B83BC4FC /* Pods-MEO Go Channel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
