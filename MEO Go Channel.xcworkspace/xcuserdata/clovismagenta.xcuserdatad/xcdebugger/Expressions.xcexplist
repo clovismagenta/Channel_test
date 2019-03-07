@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in MEOChannelsTableViewController.loadCatalogTable():MEOChannelsTableViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in CatalogIntegration.getCatalogJSONData(url:param:):CatalogIntegration.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CatalogIntegration.formatJSONtoPrograms(resultJSON:):CatalogIntegration.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "programsArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MEOChannelsTableViewController.tableView(_:cellForRowAt:):MEOChannelsTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "channelList">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in CatalogIntegration.getInitialPrograms(aParams:completion:):CatalogIntegration.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "programsArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in CatalogIntegration.getCatalogJSONData(thisURL:param:):CatalogIntegration.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in CatalogIntegration.getCatalogJSONData(thisURL:param:completion:):CatalogIntegration.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

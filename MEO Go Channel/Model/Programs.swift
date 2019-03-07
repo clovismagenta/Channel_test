@@ -9,10 +9,11 @@
 import Foundation
 import UIKit
 
-struct Programs {
+class Programs {
     
-    var title : String = ""
-    var description : String = ""
+    var channelTitle : String = ""
+    var programTitle : String = ""
+    var nextProgram : String = ""
     var image : UIImage?
     var callLetter : String = ""
 

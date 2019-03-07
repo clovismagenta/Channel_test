@@ -17,6 +17,12 @@ class CustomCellTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        
+        channelLabel.text = ""
+        programNameLabel.text = ""
+        descriptonLabel.text = ""
+        
+        
         // Initialization code
     }
 //
